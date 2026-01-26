@@ -1,0 +1,72 @@
+# Virtual Environment
+upernet/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Model checkpoints (too large for git)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Large data files
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Dataset directories
+data/
+datasets/
+
+# Output directories (can be regenerated)
+outputs/
+visualizations/
+feature_maps/
+pr_curve_results/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+
+# Scratch/temp files
+scratch/
+tmp/
+temp/
