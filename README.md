@@ -6,18 +6,6 @@ A deep learning pipeline for pneumothorax detection and segmentation in chest X-
 
 This project implements a semantic segmentation model for detecting pneumothorax (collapsed lung) in chest X-ray images from the SIIM-ACR Pneumothorax Segmentation dataset. The model uses **UPerNet (Unified Perceptual Parsing Network)** architecture with a **Swin Transformer Base** backbone from HuggingFace Transformers.
 
-## Model Performance
-
-| Metric | Value |
-|--------|-------|
-| **Average Precision (AP)** | 0.7030 |
-| **PR-AUC** | 0.7030 |
-| **Best F1-Score** | 0.6658 |
-| **Precision** | 0.6718 |
-| **Recall** | 0.6600 |
-| **Best Validation Dice** | 0.6095 |
-| **Best Validation IoU** | 0.4648 |
-
 ### Dataset Statistics
 - **Training Images**: 2,898 (after balancing)
 - **Validation Images**: 725
