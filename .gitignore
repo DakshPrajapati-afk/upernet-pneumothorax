@@ -48,6 +48,10 @@ visualizations/
 feature_maps/
 pr_curve_results/
 
+# Keep results folder for performance documentation
+!results/
+!results/**
+
 # Jupyter Notebooks
 .ipynb_checkpoints/
 

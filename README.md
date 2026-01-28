@@ -182,7 +182,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @misc{upernet-pneumothorax,
-  author = {Your Name},
+  author = {Daksh Prajapati},
   title = {UPerNet Pneumothorax Segmentation},
   year = {2024},
   publisher = {GitHub},
